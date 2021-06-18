@@ -1,0 +1,21 @@
+GET http://localhost:9000/registration
+
+###
+POST  http://localhost:9000/registration
+
+Content-Type: application/json
+
+{
+    "firstName":"Arbaz",
+    "lastName":"Ahmad Tariq",
+    "emails":"arbaztariqa1@gmail.com",
+    "password":"arbaza"
+}
+
+###
+
+DELETE http://localhost:9000/registration
+###
+
+PATCH http://localhost:9000/registration/60b6994888a70c08bc1ccf3f
+
